@@ -1,0 +1,117 @@
+﻿
+body {
+    background: linear-gradient(180deg, #ffffff 0, #faffff 10%, #e2ffff 20%, #c7ffff 30%, #a8f7ff 40%, #85e8ff 50%, #5dd9fc 60%, #2ccafa 70%, #00bdfa 80%)
+}
+
+header{
+    text-align: center;
+}
+
+header img {
+        width: 160px;
+        height:auto;
+}
+
+h1 {
+    font-family:"Questrial";
+    text-align: center;
+    font-size:50px;
+}
+
+.introducción {
+    font-family:'Segoe UI';
+    border:solid;
+    padding:10px;
+    margin:5px;
+}
+
+#gastronomía{
+    background-color:antiquewhite;
+
+    display:grid;
+    grid-column:1/2/3;
+}
+
+h2 {
+    font-family: "Quetrial";
+    font-palette: dark;
+    text-align: center;
+    border: 3px solid black;
+    font-size: 40px;
+    background-color: #ff3131b0;
+}
+
+
+.contenedor {
+    width: 500px;
+    height: 500px;
+    padding-right:15%;
+    padding-left:17%;
+}
+
+.flexbox{
+    margin: 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+li {
+    background-color: #ff3131;
+    border: 3px solid black;
+    height: 30px;
+    width: 200px;
+    list-style: none;
+    text-align: center;
+    margin: px;
+    font-family: 'Segoe UI';
+    color: black;
+}
+
+li:hover{
+
+    transform:scale(1.5,1.5);
+    
+}
+
+p {
+    font-family: 'Segoe UI';
+    text-align: center;
+    padding:5px;
+    margin: 5px;
+}
+
+a{
+    color:darkgreen;
+    width:50px;
+    font-size:large;
+    padding:5px;
+    border-radius:15%;
+    text-decoration-style:dotted;
+}
+
+a:link{
+
+    background-color:yellow;
+}
+
+ a:active {
+        font-family: 'Lucida Calligraphy';
+    }
+
+a:visited{
+    color:deeppink;
+}
+
+a:hover{
+    background-color:aqua;
+    font-size:30px;
+}
+
+
+footer{
+    text-align:center;
+    font-family:"Questrial";
+    font-size:15px;
+    font-palette:inherit;
+}
