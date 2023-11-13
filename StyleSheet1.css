@@ -25,14 +25,11 @@ h1 {
     margin:5px;
 }
 
-#gastronomía{
+#gastronomía, #interes, #arteycultura, #recomendaciones, #contacto {
     background-color:antiquewhite;
-
-    display:grid;
-    grid-column:1/2/3;
 }
 
-h2 {
+h2, h3{
     font-family: "Quetrial";
     font-palette: dark;
     text-align: center;
@@ -41,32 +38,48 @@ h2 {
     background-color: #ff3131b0;
 }
 
-
-.contenedor {
-    width: 500px;
-    height: 500px;
-    padding-right:15%;
-    padding-left:17%;
+.carousel-container {
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 
-.flexbox{
-    margin: 10px;
+.carousel {
+    margin: 2px;
     display: flex;
-    flex-direction:row;
-    justify-content:space-around;
+    transition: transform 0.5s; /* Agregar transición para deslizar imágenes */
 }
 
-li {
-    background-color: #ff3131;
-    border: 3px solid black;
-    height: 30px;
-    width: 200px;
-    list-style: none;
-    text-align: center;
-    margin: px;
-    font-family: 'Segoe UI';
-    color: black;
+    .carousel li {
+        width: 600px; /* Ancho de cada imagen */
+        height: 400px;
+    }
+
+
+@media(min-width:600px) {
+
+    .flexbox {
+        margin: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
+
+ li {
+        background-color: #ff3131;
+        border: 3px solid black;
+        height: 30px;
+        width: 200px;
+        list-style: none;
+        text-align: center;
+        margin: 8px;
+        font-family: 'Segoe UI';
+        color: black;
+ }
+
 
 li:hover{
 
@@ -108,6 +121,50 @@ a:hover{
     font-size:30px;
 }
 
+.formulario{
+    display:flex;
+    background-image:url('https://pbs.twimg.com/media/Daf9DH_X4AAQ_oH.jpg');
+    padding: 2%;
+    justify-content: center;
+}
+
+form, .form-select{
+    background-color:whitesmoke;
+    display: flex;
+    padding-top:2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    flex-direction:column;
+    justify-content:center;
+}
+
+
+.form-floating{
+    background-color:whitesmoke;
+    display: flex;
+    padding-top:2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    flex-direction:column;
+    justify-content:center;
+}
+
+
+
+input, textarea{   
+    padding: 2%;
+    margin: 5%;
+    border-radius: 10%;
+    background-color: rgba(245, 245, 245, 0.363);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+
+label{
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
 
 footer{
     text-align:center;
