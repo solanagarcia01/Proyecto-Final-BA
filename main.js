@@ -23,20 +23,7 @@ if (edad >= 18) {
     alert("Danos tu sugerencia!")
 }
 else {
-    alert("No puedes completar esta secci�n")
+    alert("No puedes completar esta sección")
 }
 
-let elemento = document.querySelector("h2");
-elemento.addEventListener("click",function click(){
-    alert ("Conocé Buenos Aires")
-});
-
-function mostrar(){
-    document.getElementById("corazon").style.display="block";
-
-}
-
-function ocultar(){
-    document.getElementById("corazon").style.display="none";
-}
 

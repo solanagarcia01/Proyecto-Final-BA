@@ -20,11 +20,11 @@
 
     <div>
         <ul class="flexbox">
-            <li> <strong> Gastronomía </strong> </li>
-            <li> <strong> Puntos de Interés </strong> </li>
-            <li> <strong> Arte y Cultura </strong> </li>
-            <li> <strong> Recomendaciones </strong> </li>
-            <li> <strong> Contacto </strong> </li>
+            <li><a href="#gastronomía"><strong> Gastronomía </strong> </a></li>
+            <li> <a href="#interes"><strong> Puntos de Interés </strong> </a></li>
+            <li> <a href="#arteycultura"><strong> Arte y Cultura </strong> </a></li>
+            <li> <a href="#recomendaciones"> <strong> Recomendaciones </strong></a></li>
+            <li> <a href="#contacto"> <strong> Contacto </strong> </a> </li>
         </ul>
     </div>
 
@@ -53,34 +53,62 @@
         </h2>
         <p>La propuesta gastronómica de Buenos Aires desde siempre estuvo colmada de opciones impecables, con una cocina de lujo y para todos los gustos y precios. El amor por la cocina, lo gourmet y la coctelería parece estar en constante crecimiento, y cada vez son más los barrios porteños que se suman a la lista de distritos foodie y agregan nuevos nombres al catálogo de restaurantes y bares de Argentina.</p>
 
+        <section class="restaurant-container">
+            <div class="restaurant">
+              <img src="Imágenes\Gastronomía Facturas.jpg" alt="Facturas">
+              <h3>Facturas</h3>
+              <p>Descripción del restaurante 1.</p>
+            </div>
+        
+            <div class="restaurant">
+              <img src="img/restaurante2.jpg" alt="Restaurante 2">
+              <h2>Restaurante 2</h2>
+              <p>Descripción del restaurante 2.</p>
+            </div>
+    
+          </section>
+
     </section>
 
     <section id="interes">
-
-        <h3>
-            <strong>Puntos de Interés</strong>
-        </h3>
+        <h2>
+          <strong>Puntos de Interés</strong>
+        </h2>
         <p>Sos bienvenido a esta ciudad, reconocida por su belleza imponente, su arquitectura, su vida nocturna y su oferta gastronómica y cultural única en Latinoamérica.
-            Te proponemos algunos atractivos que no podés perderte. ¡Disfrutá de una experiencia completa!</p>
-
-    </section>
+          Te proponemos algunos atractivos que no podés perderte. ¡Disfrutá de una experiencia completa!</p>
+      
+        <section class="poi-container">
+          <div class="poi">
+            <h3>Teatro Colón</h3>
+            <img src="https://teatrocolon.org.ar/sites/default/files/styles/d8/public/2019-10/teatro-colon_exterior_001.jpg?itok=H4-VExa7" alt="Teatro Colón">
+            <div class="poi-info">
+              <p>El Teatro Colón es uno de los imperdibles del mundo de la lírica y está a la altura de La Scala de Milán, la Ópera Garnier de París y el Royal Opera House de Londres.</p>
+            </div>
+          </div>
+      
+          <div class="poi">
+            <h3>El Obelisco</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/ObeliscoBA2015.2.jpg/1200px-ObeliscoBA2015.2.jpg" alt="Obelisco">
+            <div class="poi-info">
+              <p>El Obelisco es el mayor emblema de la Ciudad de Buenos Aires y de sus habitantes, como lo son la Torre Eiffel respecto a París o la Estatua de la Libertad en relación a Nueva York.</p>
+            </div>
+          </div>
+        </section>
+      </section>
 
     <section id="arteycultura">
 
-        <h3>
+        <h2>
             <strong>Arte y Cultura</strong>
-        </h3>
+        </h2>
         <p>La propuesta gastronómica de Buenos Aires desde siempre estuvo colmada de opciones impecables, con una cocina de lujo y para todos los gustos y precios. El amor por la cocina, lo gourmet y la coctelería parece estar en constante crecimiento, y cada vez son más los barrios porteños que se suman a la lista de distritos foodie y agregan nuevos nombres al catálogo de restaurantes y bares de Argentina.</p>
 
-    </section>
-
-    <a href="">Home</a>
 
     <section id="recomendaciones">
 
-        <h3>
+        <h2>
             <strong>Recomendaciones</strong>
-        </h3>
+        </h2>
         <p>¿Sos local y querés recomendar lugares o actividades fuera del circuito turístico habitual que te parecen interesantes? ¿Curiosidades que quieras comentar? ¿Ya visitaste Buenos Aires y querés contarnos sobre algún punto de interés poco conocido para que nadie se lo pierda? Entonces, este es tu espacio!</p>
 
         <div class="formulario">
@@ -89,17 +117,17 @@
                 <label for="">¿Tenés algún punto o actividad de interés para sugerir?</label>
                 <br>
                 <label for="">¡Contanos!</label>
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                </div>
                 <input type="text" placeholder="Nombre y Apellido" required>
                 <input type="text" placeholder="DNI" minlength="7" & maxlength="8">
                 <input type="text" placeholder="Correo electrónico">
-                <div class="form-floating">
-                <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                <option selected>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-                    </select>
-                  </div>
                 <textarea type="text" placeholder="Mi sugerencia:" cols="30" rows="10"></textarea>
                 <input type="submit" value="Enviar">
             </form>
@@ -110,18 +138,14 @@
 
     <section id="contacto">
 
-        <h3>
+        <h2>
             <strong>Contacto</strong>
-        </h3>
+        </h2>
         <p>La propuesta gastronómica de Buenos Aires desde siempre estuvo colmada de opciones impecables, con una cocina de lujo y para todos los gustos y precios. El amor por la cocina, lo gourmet y la coctelería parece estar en constante crecimiento, y cada vez son más los barrios porteños que se suman a la lista de distritos foodie y agregan nuevos nombres al catálogo de restaurantes y bares de Argentina.</p>
 
     </section>
 
 
-     <button id="boton" oneclick="mostrar();">Mostrar</button>
-     <img id="Corazon" src="https://media.istockphoto.com/id/1367357589/es/foto/cielo-rojo-en-forma-de-coraz%C3%B3n-al-atardecer-hermoso-paisaje-con-flores-me-encanta-el-fondo-con.jpg?s=612x612&w=0&k=20&c=A2u-PoF7LGHvwhjf3_CRziNxK-Zh8tiRFjl7i7M2Gv4=" alt="">
-   
-     <button id="botondos" oneclick="ocultar();">Ocultar</button>
 
      <footer>
         Turismo Buenos Aires S.A. <br />

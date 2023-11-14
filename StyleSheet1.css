@@ -18,6 +18,9 @@ h1 {
     font-size:50px;
 }
 
+a{
+   color: black; 
+}
 .introducción {
     font-family:'Segoe UI';
     border:solid;
@@ -29,7 +32,7 @@ h1 {
     background-color:antiquewhite;
 }
 
-h2, h3{
+h2{
     font-family: "Quetrial";
     font-palette: dark;
     text-align: center;
@@ -37,6 +40,77 @@ h2, h3{
     font-size: 40px;
     background-color: #ff3131b0;
 }
+
+h3{
+    font-palette: dark;
+    text-align: center;
+    font-size: 30px;
+}
+.restaurant-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2%;
+  }
+  
+  .restaurant {
+    width: 300px;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .restaurant img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .restaurant h2 {
+    margin: 1rem 0;
+    color: #333;
+  }
+  
+  .restaurant p {
+    color: #666;
+  }
+
+  .poi-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0.5%;
+  }
+  
+  .poi {
+    width: 400px; /* Ancho individual de cada punto de interés */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .poi h3 {
+    color: #333;
+    text-align: center;
+    margin:1.5%;
+  }
+  
+  .poi img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .poi-info {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .poi-info p {
+    color: #666;
+    overflow: hidden; /* Evitar que el texto afecte la alineación vertical */
+  }
+  
 
 .carousel-container {
     width: 1200px;
@@ -94,32 +168,6 @@ p {
     margin: 5px;
 }
 
-a{
-    color:darkgreen;
-    width:50px;
-    font-size:large;
-    padding:5px;
-    border-radius:15%;
-    text-decoration-style:dotted;
-}
-
-a:link{
-
-    background-color:yellow;
-}
-
- a:active {
-        font-family: 'Lucida Calligraphy';
-    }
-
-a:visited{
-    color:deeppink;
-}
-
-a:hover{
-    background-color:aqua;
-    font-size:30px;
-}
 
 .formulario{
     display:flex;
